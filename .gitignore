@@ -2,3 +2,4 @@
 .venv
 src/data_cleaning/clean_data_sql.py
 src/data_cleaning/clean_data_pg8000.py
+FUTURE_IMPROVEMENTS.md
