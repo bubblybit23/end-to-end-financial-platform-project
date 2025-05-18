@@ -1,5 +1,8 @@
 # Financial Data Pipeline Project
 
+![Dashboard Preview](https://github.com/bubblybit23/end-to-end-financial-platform-project/blob/main/sample_visualization_20250515.png)
+
+
 ## Overview
 
 This project automates the generation, cleaning, and reconciliation of financial transaction data, simulating a system similar to Grab. The pipeline is designed to:
