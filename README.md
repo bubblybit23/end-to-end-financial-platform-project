@@ -18,8 +18,8 @@ The project is organized as follows:
 end-to-end-financial-platform-project/
 ├── .env                    # Stores sensitive information (database credentials, email settings)
 ├── automation_config.yaml  # Configuration for the automation schedule and scripts
-├── automation.log          # Main automation log (moved to root)
-├── reconciliation.log      # Log for the reconciliation process (moved to root)
+├── automation.log          # Main automation log
+├── reconciliation.log      # Log for the reconciliation process
 ├── src/                    # Source code directory
 │   ├── data_cleaning/      # Data cleaning scripts
 │   │   └── clean_data.py   # Cleans raw data
