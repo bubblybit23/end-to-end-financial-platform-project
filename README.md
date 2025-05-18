@@ -1,8 +1,5 @@
 # Financial Data Pipeline Project
 
-![Dashboard Preview](https://github.com/bubblybit23/end-to-end-financial-platform-project/blob/main/sample_visualization_20250515.png)
-
-
 ## Overview
 
 This project automates the generation, cleaning, and reconciliation of financial transaction data, simulating a system similar to Grab. The pipeline is designed to:
@@ -21,8 +18,8 @@ The project is organized as follows:
 end-to-end-financial-platform-project/
 ├── .env                    # Stores sensitive information (database credentials, email settings)
 ├── automation_config.yaml  # Configuration for the automation schedule and scripts
-├── automation.log          # Main automation log
-├── reconciliation.log      # Log for the reconciliation process
+├── automation.log          # Main automation log (moved to root)
+├── reconciliation.log      # Log for the reconciliation process (moved to root)
 ├── src/                    # Source code directory
 │   ├── data_cleaning/      # Data cleaning scripts
 │   │   └── clean_data.py   # Cleans raw data
@@ -318,20 +315,3 @@ The scripts use the `logging` module to record events, errors, and information. 
     * An email notification is sent (if email is configured in `.env`).
     * The remaining scripts in the pipeline are skipped.
 * Each script also has its own error handling (e.g., database connection errors, file errors).
-
-## Scalability and Future Improvements
-
-* **Scalability:**
-    * For larger datasets, consider using a more robust data processing framework like Apache Spark or Apache Kafka.
-    * Optimize database operations (e.g., using batch inserts, indexing).
-    * Implement parallel processing where applicable.
-* **Future Improvements:**
-    * Implement more sophisticated data validation and cleaning rules.
-    * Add more comprehensive unit and integration tests.
-    * Create a web interface or API to trigger and monitor the pipeline.
-    * Implement data quality monitoring.
-    * Containerize the application using Docker for easier deployment.
-    * Add support for other data sources and formats.
-    * Implement real-time data processing.
-    * Improve the email notification system.
-    * Add a retry mechanism for failed scripts.
