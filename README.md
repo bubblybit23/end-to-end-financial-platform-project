@@ -1,5 +1,8 @@
 # Financial Data Pipeline Project
 
+![Dashboard Preview](https://github.com/bubblybit23/end-to-end-financial-platform-project/blob/main/sample_visualization_20250515.png)
+
+
 ## Overview
 
 This project automates the generation, cleaning, and reconciliation of financial transaction data, simulating a system similar to Grab. The pipeline is designed to:
@@ -14,12 +17,12 @@ This project automates the generation, cleaning, and reconciliation of financial
 ## Project Structure
 
 The project is organized as follows:
-
+```
 end-to-end-financial-platform-project/
 ├── .env                    # Stores sensitive information (database credentials, email settings)
 ├── automation_config.yaml  # Configuration for the automation schedule and scripts
-├── automation.log          # Main automation log (moved to root)
-├── reconciliation.log      # Log for the reconciliation process (moved to root)
+├── automation.log          # Main automation log
+├── reconciliation.log      # Log for the reconciliation process
 ├── src/                    # Source code directory
 │   ├── data_cleaning/      # Data cleaning scripts
 │   │   └── clean_data.py   # Cleans raw data
@@ -31,7 +34,7 @@ end-to-end-financial-platform-project/
 ├── .gitignore              # Specifies intentionally untracked files that Git should ignore
 ├── README.md               # Project documentation
 └── requirements.txt          # Lists the project's dependencies
-
+```
 **Key Points:**
 
 * The `.env`, `automation_config.yaml`, `.gitignore`, `requirements.txt`, and `run_automation.py` files, and the `logs/` directory are located in the project root directory.
