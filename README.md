@@ -14,7 +14,7 @@ This project automates the generation, cleaning, and reconciliation of financial
 ## Project Structure
 
 The project is organized as follows:
-
+```
 end-to-end-financial-platform-project/
 ├── .env                    # Stores sensitive information (database credentials, email settings)
 ├── automation_config.yaml  # Configuration for the automation schedule and scripts
@@ -31,7 +31,7 @@ end-to-end-financial-platform-project/
 ├── .gitignore              # Specifies intentionally untracked files that Git should ignore
 ├── README.md               # Project documentation
 └── requirements.txt          # Lists the project's dependencies
-
+```
 **Key Points:**
 
 * The `.env`, `automation_config.yaml`, `.gitignore`, `requirements.txt`, and `run_automation.py` files, and the `logs/` directory are located in the project root directory.
