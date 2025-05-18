@@ -1,0 +1,13 @@
+schedule:
+  frequency: daily
+  time: "22:33"
+scripts:
+  - name: generate_data_ph_daily
+    path: C:/Users/nikki/Documents/end-to-end-financial-platform-project/src/data_generation/generate_data_daily.py
+    delay_after: 180
+  - name: cleaning_data
+    path: C:/Users/nikki/Documents/end-to-end-financial-platform-project/src/data_cleaning/clean_data.py
+    delay_after: 120
+  - name: reconcile_data_sql
+    path: C:/Users/nikki/Documents/end-to-end-financial-platform-project/src/data_reconciliation/reconcile_data_sql.py
+    delay_after: 0

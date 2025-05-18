@@ -1,0 +1,10 @@
+sqlalchemy
+pandas
+Faker==24.0.0 # Pinning Faker version for consistency
+python-dotenv
+psycopg2-binary
+python-dotenv
+pytz
+PyYAML
+pandasql
+pg8000
